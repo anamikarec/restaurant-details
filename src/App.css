@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App{
+      margin-top:50px;
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+    margin-bottom: 50px;
+    /* padding-left: 30%; */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .header{
+    /* margin-left: 20%; */
+    text-align: center;
+    margin-top: 50px;
+    font-size:42px;
   }
-  to {
-    transform: rotate(360deg);
+  .feature-btns{
+    padding: 20px;
+    width: 660px;
+    margin: auto;
+    /* border: 1px solid gray; */
+    margin-bottom: 20px;
+    /* border-radius:10px; */
+    /* background-color: black; */
+    /* color: white; */
   }
-}
+  .rating-btn{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40px;
+    height:30px;
+    margin: 5px;
+    font-size: 16px;
+    color:black !important;
+  }
+  .btn-bold{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .payment-btn{
+    background-color: white;
+    border: 1px solid black;
+    /* color: white; */
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    height:30px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  .card-content-div{
+    /* margin-left:10%; */
+    margin: auto;
+    /* background-color:black; */
+    color:black;
+  }
